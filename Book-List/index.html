@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Book-List | Vanilla JS Small Project</title>
+	<script src="https://kit.fontawesome.com/83a27a9b48.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <div class="container mt-4">
+      <h1 class="display-4 text-center"><i class="fas fa-book-open text-primary"></i> My<span class="text-primary"> Book</span>List</h1>
+      <form id="book-form">
+        <div class="form-group">
+          <label for="title">Title</label>
+          <input type="text" id="title" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label for="author">Author</label>
+          <input type="text" id="author" class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label for="year">Year</label>
+          <input type="text" id="year" class="form-control" />
+        </div>
+        <div class="d-grid gap-2">
+		   <input type="submit" value="Add Book" id="submit" class="btn btn-primary btn-block mt-3"/>
+	   </div>
+       
+      </form>
+      <table class="table table-striped mt-5 text-center">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody id="parent"></tbody>
+      </table>
+    </div>
+
+
+
+
+
+
+   
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
