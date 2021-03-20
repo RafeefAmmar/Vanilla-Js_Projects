@@ -1,0 +1,24 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+li{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+span{
+	cursor: pointer;
+}
+
+
+/*.btn{
+	border:none;
+	outline: none;
+	background:red;
+	cursor: pointer;
+	padding:10px;
+}*/
