@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Livvic', sans-serif;
+    background:#e0e0e0;
+    
+}
+
+html{
+    font-size:62.5%;
+}
+
+.container{
+    width: 100vw;
+    min-height:100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+    
+
+
+
+h1{
+    font-size:4rem;
+}
+
+span{
+    font-size:2.2rem;
+}
+
+.input{
+   padding:20px 50px;
+   border-radius:50px;
+   -webkit-border-radius:50px;
+   -moz-border-radius:50px;
+   -ms-border-radius:50px;
+   -o-border-radius:50px;
+border:1px solid #6c5ce7;
+outline:none;
+margin:20px;
+
+}
+.calculator{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(5,1fr);
+    grid-gap:10px;
+    width:40vw;
+    height:40vh;
+    margin:20px;
+  
+    
+
+}
+.equal{
+    grid-column:-4/-1; 
+    padding:10px;
+    background-color: rgba(85, 239, 196,1.0);
+    color: #000;
+}
+
+
+button{
+    border:none;
+    outline: none;
+    cursor:pointer;
+    /*border-radius: 50px;
+    */background:#6c5ce7;
+    color: #fff;
+    
+    
+}
+
+button:hover{
+    background:rgba(108, 92, 231,1.5);
+}
+
+.cls{
+    
+    grid-column:-4/-1;
+    padding:15px;
+
+}
+
+
