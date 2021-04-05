@@ -1,4 +1,4 @@
-# In This Repository you can find some small **Vanilla Js** projects which I've done as a beginner js learner. <br>
+### In This Repository you can find some small ***Vanilla Js*** projects which I've done as a beginner js learner. <br>
 
 ![Vanila Js Small projects Of RifatIbn](https://repository-images.githubusercontent.com/348590462/91cc9200-8718-11eb-9f89-7c21e29ab3e1)
 
